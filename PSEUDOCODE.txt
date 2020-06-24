@@ -1,0 +1,77 @@
+:: PSEUDOCODE CETAK SEMUA ::
+
+int p=0;
+double a=0;
+double b=0;
+cetaksemua(OperasiBilanganAbs OB,double x, double y):
+        OB.setA(x);
+        OB.setB(y);
+        OB.setC();
+        OB.tampil();
+
+
+1. Try :
+	input(double a)
+	input(double b)
+2. Catch e :
+	 p=1
+	print(program error+ e)
+3. Finally: 
+   if (p==0):
+        OperasiPenjumlahan jumlah = new OperasiPenjumlahan();
+        cetaksemua(jumlah,a,b);
+        OperasiPengurangan kurang = new OperasiPengurangan();
+        cetaksemua(kurang,a,b);
+        OperasiPerkalian kali = new OperasiPerkalian();
+        cetaksemua(kali,a,b);
+        OperasiPembagian bagi = new OperasiPembagian();
+        cetaksemua(bagi,a,b);
+        print("Program selesai");
+    else:
+        print("Program tidak dapat berjalan");	 
+
+
+
+:: PSEUDOCODE PENJUMLAHAN ::
+
+double a;
+double b;
+
+1. setA= a;
+2. setB =b;
+3. setC= a+b;
+4. print( "Hasil dari " + a "+" b " = " c)
+
+
+:: PSEUDOCODE PENGURANGAN ::
+
+double a;
+double b;
+
+1. setA= a;
+2. setB =b;
+3. setC= a-b;
+4. print( "Hasil dari " + a "-" b " = " c)
+
+:: PSEUDOCODE PEMBAGIAN ::
+
+double a;
+double b;
+
+1. setA= a;
+2. setB =b;
+3. setC= a/b;
+4. print( "Hasil dari " + a "/" b " = " c)
+
+:: PSEUDOCODE PERKALIAN ::
+
+double a;
+double b;
+
+1. setA= a;
+2. setB =b;
+3. setC= a*b;
+4. print( "Hasil dari " + a "*" b " = " c)
+
+
+
